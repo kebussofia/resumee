@@ -1,0 +1,32 @@
+footer {
+    background-color: var(--bg-color-2);
+}
+
+footer.container {
+    min-height: auto;
+}
+
+footer.container .inside {
+    padding: var(--mob-padding);
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
+    margin-top: 20px; 
+}
+
+.social-icons a {
+    font-size: 30px;
+    margin: 10px;
+    cursor: pointer;
+    color: #333333; /
+    transition: transform 0.3s, color 0.3s; 
+}
+
+.social-icons a:hover {
+    color: #c682b5; 
+    transform: scale(1.2); 
+}

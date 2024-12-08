@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Кебус Софія Портфоліо">
+
+    <!-- Fonts in project -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <!-- Fonts in project -->
+
+    <!-- Swiper CSS files -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/burger.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/simpleLightbox.min.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    
+    <!-- Сюди необхідно додати CSS файли для секцій та окремих компонентів -->
+    <link rel="stylesheet" href="css/section-1.css">
+    
+    <!-- Кінець блоку CSS файлів для кожної із секцій та компонентів -->
+
+    <title>Кебус Софія портфоліо</title>
+
+</head>
+<body id="home">
+    <!-- Navigation section -->
+    <nav>
+        <div class="navbar">
+            <div class="logo">
+                <a href="#top" class="img-box">
+                    <img src="img/avatar.jpg" alt="Кебус Софія">
+                </a>
+                <span>Кебус Софія</span>
+           </div>
+           <div class="navigation">
+                <button class="nav-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="level_1">
+                    <li><a class="nav-link" href="#top">Додому</a></li>
+                    <li><a class="nav-link" href="#s1">Про мене</a></li>
+                    <li><a class="nav-link" href="#s2">Я вмію</a></li>
+                    <li><a class="nav-link" href="#s3">Портфоліо</a></li>
+                </ul>
+           </div>
+       </div>
+    </nav>
+    <!-- END of Navigation section -->
+
+    <!-- C O N T N E N T   W R A P P E R -->
+    <div id="top" class="wrapper"> <!-- Загальний контейнер -->
+
+        <!-- Start of the Header section -->
+        <header class="container">
+            <div class="inside">
+                <div class="cover img-box">
+                    <img src="img/image-in-top.jpg" alt="Обкладинка сторінки Ім'я Прізвище">
+                </div>
+                <div class="avatar img-box">
+                    <img src="img/avatar.jpg" alt="Ім'я Прізвище аватар">
+                </div>
+                <h1 class="center">Кебус Софія</h1>
+                <p class="center narrow">студентка групи №34 <br>кафедри графічного дизайну</p>
+                <p class="center narrow">Львівської національної<br>академії мистецтв</p>
+            </div>
+        </header>
+        <!-- END of the Header section -->
+
+        <!-- Section #s1 -->
+        <section id="s1" class="container">
+            <div class="inside">
+                <h2>Про&nbsp;мене</h2>
+                <div class="cols">
+                    <div class="col col-1">
+                        <img class="rounded" src="img/avatar.jpg" alt="Ім'я Прізвище">
+                    </div>
+                    <div class="col col-2">
+                        <h3>Студент дизайнер</h3>
+                        <p>Я студентка, яка захоплено практикується у сфері графічного дизайну. Для мене це не просто професія, а спосіб творчого самовираження та можливість створювати щось унікальне й красиве. Я завжди прагну вдосконалювати свої навички, експериментую з новими техніками та стилями, щоб знайти власний підхід у дизайні.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Section #s2 -->
+        <section id="s2" class="container">
+            <div class="inside">
+                <h2 class="title center abr">Я&nbsp;вмію</h2>
+                <div id="swiper-01" class="swiper-container slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide item">
+                            <h3>Розробка брендингу</h3>
+                            <p>Cтворення логотипів, айдентики, бренд-буків, які підкреслюють індивідуальність компанії чи продукту.</p> 
+                        </div>
+                        <div class="swiper-slide item">
+                            <h3>UI/UX дизайн</h3>
+                            <p>Розробка зручних і привабливих інтерфейсів для вебсайтів і мобільних додатків.</p> 
+                        </div>
+                        <div class="swiper-slide item">
+                            <h3>Робота з типографікою</h3>
+                            <p>Вміле використання шрифтів, текстових композицій і візуальної ієрархії.</p> 
+                        </div>
+                        <div class="swiper-slide item">
+                            <h3>Ілюстрація</h3>
+                            <p>Створення унікальних графічних образів, що додають вашим проектам індивідуальності.</p> 
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section #s3 -->
+        <section id="s3" class="container">
+            <div class="inside">
+                <h2>Моє&nbsp;портфоліо</h2>
+                <div class="gallery">
+                    <a class="img-box" href="img/Lviv_01.jpg">
+                        <img src="img/Lviv_01.jpg" alt="" />
+                    </a>
+                    <a class="img-box" href="img/Lviv_02.jpg">
+                        <img src="img/Lviv_02.jpg" alt="" />
+                    </a>
+                    <a class="img-box" href="img/Lviv_03.jpg">
+                        <img src="img/Lviv_03.jpg" alt="" />
+                    </a>
+                    <a class="img-box" href="img/Lviv_04.jpg">
+                        <img src="img/Lviv_04.jpg" alt="" />
+                    </a>
+                    <a class="img-box" href="img/Lviv_05.jpg">
+                        <img src="img/Lviv_05.jpg" alt="" />
+                    </a>
+                    <a class="img-box" href="img/Lviv_06.jpg">
+                        <img src="img/Lviv_06.jpg" alt="" />
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Start of the Footer section -->
+        <footer class="container">
+            <div class="inside">
+                <h4>Будьмо на зв&#8217;язку</h4>
+                <div class="social-icons">
+                    <a class="instagram" href="https://www.instagram.com/kebussofiia/">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a class="behance" href="https://www.behance.net/1668945a">
+                        <i class="fa-brands fa-behance"></i>
+                    </a>
+                 </div>
+            </div>
+        </footer>
+        <!-- END of the Footer section -->
+
+    </div>
+    <!-- E N D   O F   C O N T N E N T   W R A P P E R -->
+
+    <!-- Scripts in project -->
+    <script src="js/nav.js"></script>
+
+    <script src="js/swiper-bundle.min.js"></script> <!-- Бібліотечний JavaScript для слайдера (каруселі) -->
+    <script src="js/swiper-init.js"></script>       <!-- Ініціалізація слайдерів (каруселей) -->
+
+    <script src="js/simpleLightbox.min.js"></script>
+    
+    <script type="text/javascript">
+       var lightbox = new SimpleLightbox({
+            elements: document.querySelectorAll('.gallery a')
+        }); 
+    </script>
+    <script src="https://kit.fontawesome.com/cadee83816.js" crossorigin="anonymous"></script>
+    <!-- End of Scripts in project -->
+</body>
+</html>
